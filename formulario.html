@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
 </head>
 <body>
-    
+    <section>
+        <form action="">
+            <h1>Registro</h1>
+            <label for="nombre">Nombres</label>
+                <input required type="text" placeholder="Writhney" id="nombre" name="nombre" aria-required="true"><hr>
+            <label for="apellido">Apellidos</label>
+                <input type="text" placeholder="Lazo " id="apellido" name="apellido" required><hr>
+            <label for="celular">Celular</label>
+                <input type="tel" placeholder="+51 952 554 236" id="celular" name="celular"><hr>
+            <label for="fechNaci">Fecha de Nacimiento</label>
+                <input type="date" name="" id="fechNaci" name="fechNaci"><hr>
+            
+            <label for="">Genero |</label>
+            <label for="feme">Femenino</label>
+                <input type="radio" name="gene" id="feme">
+            <label for="masc">Masculino</label>
+                <input type="radio" id="masc" name="gene"><hr>
+                     
+            <label for="proyecto">País</label>
+                <select name="proyecto" id="proyecto" required>
+                  <option value="primaria">Perú</option>
+                  <option value="primaria">Arguentina</option>
+                  <option value="primaria">Chile</option>
+                  <option value="inicial">Ecuador</option>
+                </select> <hr>
+            
+            <label for="usuario">Usuario</label>
+                <input type="text" placeholder="NewUser" id="usuario"><hr>
+            <label for="password">Contraseña</label>
+                <input type="password" name="" id="password"><hr>
+                
+            
+            <label for="">Acepto los terminos y condiciones</label>
+                <input type="checkbox" name="" id=""><hr>
+            <button>Crear Cuenta</button>
+                    
+        </form>
+        
+        </section>
+
+
 </body>
 </html>
